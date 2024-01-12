@@ -1,0 +1,297 @@
+
+/* Home Page CSS */
+.nav {
+  
+  text-align: center;
+  list-style-type: none;
+  border: 3px outset rgb(131, 66, 66);
+  margin: 10px 3px 0px 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-family: Helvetica, sans-serif;
+}
+
+.nav li {
+  display: inline;
+  text-align: center;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+img{
+  width: 500px;
+  height: auto;
+  border-radius: 90%;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.socialinfo {
+  font-size: larger;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+.socialinfo li {
+  display: inline;
+  text-align: center;
+  
+}
+
+body {
+  background-color: azure ;
+}
+
+
+
+
+/* About me CSS */
+
+.nav {
+  
+  text-align: center;
+  list-style-type: none;
+  border: 3px outset rgb(131, 66, 66);
+  margin: 10px 3px 0px 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-family: Helvetica, sans-serif;
+}
+
+.nav li {
+  display: inline;
+  text-align: center;
+
+}
+
+
+
+body {
+  background-color: azure ;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+p1 {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+}
+p2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+}
+p3 {
+  color: rgb(0, 0, 0);
+  text-align: right;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.para1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+  
+  border: 5px solid rgb(0, 0, 0);
+  width:800px;
+  padding:0%;
+  margin-left: 300px;
+  
+}
+.para11{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+  
+  border: 5px solid rgb(0, 0, 0);
+  width:800px;
+  padding:0%;
+  margin-left: 300px;
+
+  
+}
+.para12{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+  
+  border: 5px solid rgb(0, 0, 0);
+  width:800px;
+  padding:0%;
+  margin-left: 300px;
+  
+}
+
+.aboutme {
+  width: 1250px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Portfolio CSS */
+
+body {
+  background-color: azure ;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+}
+p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+
+  border: 5px solid rgb(91, 0, 0);
+  width:800px;
+  padding:0%;
+  margin-left: 325px;
+}
+div {
+    text-align: center;}
+
+/*Qualifications CSS*/
+
+body {
+  background-color: azure ;
+}
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+  }
+  p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    
+    border: 5px solid rgb(0, 0, 0);
+    width:800px;
+    padding:0%;
+    margin-left: 325px;
+  }
+ 
+ 
+  div {text-align: center;}
+
+
+table{
+  width:50%;
+  text-align: center;
+  margin-left: 325px;
+  font-size: larger;
+}
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+}
+
+
+/* Service CSS*/
+.nav {
+  
+  text-align: center;
+  list-style-type: none;
+  border: 3px outset rgb(131, 66, 66);
+  margin: 10px 3px 0px 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-family: Helvetica, sans-serif;
+}
+
+.nav li {
+  display: inline;
+  text-align: center;
+
+}
+
+
+body {
+  background-color: azure ;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+  h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: larger;
+  }
+  .para{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    
+    border: 5px solid rgb(0, 0, 0);
+    width:800px;
+    padding:0%;
+    margin-left: 300px;
+    
+  }
+  .para1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    
+    border: 5px solid rgb(0, 0, 0);
+    width:800px;
+    padding:0%;
+    margin-left: 300px;
+
+    
+  }
+  .para2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    
+    border: 5px solid rgb(0, 0, 0);
+    width:800px;
+    padding:0%;
+    margin-left: 300px;
+    
+  }
+  
+  
+  div {text-align: center;}
