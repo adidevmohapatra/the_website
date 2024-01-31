@@ -1,0 +1,28 @@
+html {
+    background-color: rgb(147, 54, 54);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2em;
+}
+
+img {
+    margin-bottom: 3vh;
+    height: 30vh;
+    width: 40vw;
+}
+
+td {
+    padding-left: 2vw;
+    padding-bottom: 2vh;
+}
+
+li {
+    margin-top: 2vh;
+
+}
