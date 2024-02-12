@@ -1,315 +1,47 @@
-/* Base Styles */
-body {
-  background-color: azure;
-  font-family: Helvetica, sans-serif;
+/* Base layout styles */
+body, header, main, nav ul, section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-/* Header and Navigation Styles */
-header nav ul {
-  list-style-type: none;
-  margin: 10px 3px 0px 3px;
+nav ul {
+  justify-content: center;
   padding: 0;
-  overflow: hidden;
-  background-color: #ffffff; /* Using hex color format */
-  border: 3px outset #834242;
-  text-align: center;
 }
 
-header nav li {
-  display: inline;
-  margin: 0 10px;
+nav li, .socialinfo li {
+  list-style-type: none;
+  margin: 0 10px; /* Adjust spacing as needed */
 }
 
-/* Main Content and Section Styles */
-main {
-  text-align: center;
-}
-
-main h2, main h3 {
-  color: #000;
-}
-
-main p, main li {
-  color: #000;
-  font-size: larger;
-}
-
-/* Image Styling for Content and Decorative Purposes */
-img.center {
-  display: block;
-  margin: 20px auto;
-  width: 500px; /* Controlled width for non-decorative image */
-  height: auto;
-  border-radius: 50%; /* Aesthetic choice for rounding */
-}
-
-/* Decorative images might be styled differently based on their role in content */
-
-/* Form Styles */
-form {
-  margin: 20px auto;
-  text-align: left;
-  width: fit-content; /* Ensuring the form is not full width of the page */
-}
-
-form input[type="text"], form input[type="submit"], form input[type="reset"] {
-  margin-top: 5px;
-  display: block; /* Ensures form elements stack vertically */
-}
-
-/* Social Links Styling */
+/* Ensures <li> elements inside .socialinfo are inline and centered */
 .socialinfo ul {
-  list-style-type: none;
-  margin: 0;
+  display: flex;
+  justify-content: center;
   padding: 0;
-  text-align: center;
 }
 
-.socialinfo li {
-  display: inline; /* Inline display for horizontal list */
-  margin: 0 15px; /* Spacing between links */
+/* Styles for <input> and <button> inside forms to ensure they are centered */
+form input, form button {
+  margin: 5px 0; /* Center form elements vertically */
 }
 
-/* Semantic Emphasis */
-strong {
-  font-weight: bold; /* For important, non-decorative text */
+/* Additional styling to ensure content is visually appealing and centered */
+img.center {
+  max-width: 100%; /* Ensures the image is responsive and does not overflow its container */
+  height: auto;
+  border-radius: 50%; /* Gives the image a rounded look */
 }
 
-em {
-  font-style: italic; /* For emphasized text */
+/* Centering text and other elements */
+h1, h2, h3, p, figure, figcaption {
+  text-align: center; /* Ensures text is centered */
 }
 
-/* About me CSS */
-
-.nav {
-  
-  text-align: center;
-  list-style-type: none;
-  border: 3px outset rgb(131, 66, 66);
-  margin: 10px 3px 0px 3px;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  font-family: Helvetica, sans-serif;
+/* Adjust this as needed to ensure the button is visually centered and appealing */
+button {
+  cursor: pointer;
+  padding: 10px 20px; /* Adjust padding to ensure the button is neither too small nor too large */
 }
-
-.nav li {
-  display: inline;
-  text-align: center;
-
-}
-
-
-
-body {
-  background-color: azure ;
-}
-h1 {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-}
-p1 {
-  color: rgb(0, 0, 0);
-  text-align: left;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-}
-p2 {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-}
-p3 {
-  color: rgb(0, 0, 0);
-  text-align: right;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-}
-
-.para1{
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-  
-  border: 5px solid rgb(0, 0, 0);
-  width:800px;
-  padding:0%;
-  margin-left: 300px;
-  
-}
-.para11{
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-  
-  border: 5px solid rgb(0, 0, 0);
-  width:800px;
-  padding:0%;
-  margin-left: 300px;
-
-  
-}
-.para12{
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-  
-  border: 5px solid rgb(0, 0, 0);
-  width:800px;
-  padding:0%;
-  margin-left: 300px;
-  
-}
-
-.aboutme {
-  width: 1250px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-  text-align: center;
-}
-
-/* Portfolio CSS */
-
-body {
-  background-color: azure ;
-}
-h2 {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-}
-p {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
-
-  border: 5px solid rgb(91, 0, 0);
-  width:800px;
-  padding:0%;
-  margin-left: 325px;
-}
-div {
-    text-align: center;}
-
-/*Qualifications CSS*/
-
-body {
-  background-color: azure ;
-}
-  h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: larger;
-  }
-  p {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: larger;
-    
-    border: 5px solid rgb(0, 0, 0);
-    width:800px;
-    padding:0%;
-    margin-left: 325px;
-  }
- 
- 
-  div {text-align: center;}
-
-
-table{
-  width:50%;
-  text-align: center;
-  margin-left: 325px;
-  font-size: larger;
-}
-table, th, td {
-  border:1px solid black;
-  text-align: center;
-}
-
-
-/* Service CSS*/
-.nav {
-  
-  text-align: center;
-  list-style-type: none;
-  border: 3px outset rgb(131, 66, 66);
-  margin: 10px 3px 0px 3px;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  font-family: Helvetica, sans-serif;
-}
-
-.nav li {
-  display: inline;
-  text-align: center;
-
-}
-
-
-body {
-  background-color: azure ;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- 
-}
-  h2 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Georgia, sans-serif;
-    font-size: larger;
-  }
-  .para{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: larger;
-    
-    border: 5px solid rgb(0, 0, 0);
-    width:800px;
-    padding:0%;
-    margin-left: 300px;
-    
-  }
-  .para1{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: larger;
-    
-    border: 5px solid rgb(0, 0, 0);
-    width:800px;
-    padding:0%;
-    margin-left: 300px;
-
-    
-  }
-  .para2{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: larger;
-    
-    border: 5px solid rgb(0, 0, 0);
-    width:800px;
-    padding:0%;
-    margin-left: 300px;
-    
-  }
-  
-  
-  div {text-align: center;}
