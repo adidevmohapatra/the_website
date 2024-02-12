@@ -1,65 +1,83 @@
+/* Base Styles */
+body {
+  background-color: azure;
+  font-family: Helvetica, sans-serif;
+}
 
-/* Home Page CSS */
-.nav {
-  
-  text-align: center;
+/* Header and Navigation Styles */
+header nav ul {
   list-style-type: none;
-  border: 3px outset rgb(131, 66, 66);
   margin: 10px 3px 0px 3px;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  font-family: Helvetica, sans-serif;
+  background-color: #ffffff; /* Using hex color format */
+  border: 3px outset #834242;
+  text-align: center;
 }
 
-.nav li {
+header nav li {
   display: inline;
-  text-align: center;
-
+  margin: 0 10px;
 }
 
-.center {
+/* Main Content and Section Styles */
+main {
+  text-align: center;
+}
+
+main h2, main h3 {
+  color: #000;
+}
+
+main p, main li {
+  color: #000;
+  font-size: larger;
+}
+
+/* Image Styling for Content and Decorative Purposes */
+img.center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
- 
-}
-img{
-  width: 500px;
+  margin: 20px auto;
+  width: 500px; /* Controlled width for non-decorative image */
   height: auto;
-  border-radius: 90%;
-}
-h2 {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
+  border-radius: 50%; /* Aesthetic choice for rounding */
 }
 
-p {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-size: larger;
+/* Decorative images might be styled differently based on their role in content */
+
+/* Form Styles */
+form {
+  margin: 20px auto;
+  text-align: left;
+  width: fit-content; /* Ensuring the form is not full width of the page */
 }
 
-.socialinfo {
-  font-size: larger;
-  margin:0;
+form input[type="text"], form input[type="submit"], form input[type="reset"] {
+  margin-top: 5px;
+  display: block; /* Ensures form elements stack vertically */
+}
+
+/* Social Links Styling */
+.socialinfo ul {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
   text-align: center;
 }
+
 .socialinfo li {
-  display: inline;
-  text-align: center;
-  
+  display: inline; /* Inline display for horizontal list */
+  margin: 0 15px; /* Spacing between links */
 }
 
-body {
-  background-color: azure ;
+/* Semantic Emphasis */
+strong {
+  font-weight: bold; /* For important, non-decorative text */
 }
 
-
-
+em {
+  font-style: italic; /* For emphasized text */
+}
 
 /* About me CSS */
 
